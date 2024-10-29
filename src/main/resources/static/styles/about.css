@@ -1,0 +1,18 @@
+.madeBy {
+    height: 80vh;
+    background-color: lightgreen;
+    text-align: center;
+    color: honeydew;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.madeBy a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.madeBy a:hover {
+    text-decoration: underline;
+}

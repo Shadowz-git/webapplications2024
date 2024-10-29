@@ -1,0 +1,112 @@
+body {
+    font-family: "Comic Sans MS", serif;
+}
+
+.tierListContainer {
+    margin: 16px;
+    padding: 8px;
+    background-color: lightgreen;
+    /* background-color: orangered; */
+}
+
+#grade-S > td:first-child {
+    background-color: cornflowerblue;
+}
+
+#grade-A > td:first-child {
+    background-color: green;
+}
+
+#grade-B > td:first-child {
+    background-color: lightgreen;
+}
+
+#grade-C > td:first-child {
+    background-color: yellow;
+}
+
+#grade-D > td:first-child {
+    background-color: orange;
+}
+
+#grade-E > td:first-child {
+    background-color: orangered;
+}
+
+#grade-F > td:first-child {
+    background-color: darkred;
+}
+
+#tierTable {
+    outline: none;
+    width: 100%;
+    color: black;
+    background-color: darkseagreen;
+    border-color: #191a1a;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.tierTableHead {
+    background-color: dimgrey;
+    line-height: 5vh;
+}
+.tierTableHead th {
+    text-align: center;
+    padding: 4px;
+    border-width: 2px 2px 2px 0;
+    border-style: solid;
+    border-color: #191a1a;
+}
+
+.tierTableBody > tr {
+    line-height: 10vh;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #191a1a;
+    padding: 4px;
+}
+
+.tierTableBody > tr > td:first-child {
+    text-align: center;
+    width: 70px;
+    border-right: solid #191a1a 2px;
+    font-size: x-large;
+
+}
+
+.professori {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.professor-img {
+    height: 10vh;
+    width: 5vw;
+    margin-right: 2px;
+    object-fit: cover;
+}
+
+.inputContainer {
+    margin: 16px;
+    padding: 8px;
+    background-color: dimgrey;
+}
+
+select {
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 20px;
+    background-color: lightcyan;
+}
+
+select option {
+    color: inherit;
+    background-color: cornflowerblue;
+}

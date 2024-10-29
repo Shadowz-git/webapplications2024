@@ -2,11 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pomodoro San Marzano</title>
+    <!-- Bootstrap CSS -->
+    <!-- [Caricamento di Bootstrap via CDN] -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap JS Bundle con Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/global.css"/>
+    <link rel="stylesheet" href="styles/home.css"/>
+
+    <title>Home - Tier list professors</title>
 </head>
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg nav-justified">
+            <div class="container-fluid">
+                <a class="navbar-brand active" href="index.html"  aria-disabled="true">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abilita navigazione">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Tier List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <main class="container">
+        <h1>Welcome in this site, where you can Tier List some professor. Some are already pre-imported at their rank, you <strong>CAN</strong> remove with the <strong>right click</strong>.</h1>
+        <p>Have a good time traveling on the site :3</p>
+    </main>
+    <footer class="bg-black text-center p-3 mt-4 text-white">
+        <p>2024 - Web Application Course - Shadowz-Git - All Rights Reserved</p>
+    </footer>
 </body>
 </html>
