@@ -21,7 +21,7 @@ public class Elemento {
         this.nome = nome;
     }
 
-    private String getGrade() {
+    public String getGrade() {
         return grade;
     }
     public void setGrade(String grade) {

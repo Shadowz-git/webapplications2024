@@ -12,6 +12,7 @@ public class TierList {
     public String getId() {
         return id;
     }
+
     public void setId(String id) {
         this.id = id;
     }
@@ -19,6 +20,7 @@ public class TierList {
     public String getTierName() {
         return tierName;
     }
+
     public void setTierName(String tierName) {
         this.tierName = tierName;
     }
@@ -26,6 +28,7 @@ public class TierList {
     public String getTierDescription() {
         return tierDescription;
     }
+
     public void setTierDescription(String tierDescription) {
         this.tierDescription = tierDescription;
     }
@@ -33,14 +36,16 @@ public class TierList {
     public List<String> getGrades() {
         return grades;
     }
+
     public void setGrades(List<String> grades) {
         this.grades = grades;
     }
 
-    public List<Elemento> getElementi() {
+    public List<Elemento> getElements() {
         return elementi;
     }
-    public void setElementi(List<Elemento> elementi) {
+
+    public void setElements(List<Elemento> elementi) {
         this.elementi = elementi;
     }
 }
